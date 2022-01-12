@@ -1,0 +1,12 @@
+---
+title: R绘图1
+author: jiashun zhang
+date: '2022-01-12'
+slug: r-1
+categories:
+  - R绘图
+tags:
+  - R Markdown
+  - plot
+  - regression
+---
