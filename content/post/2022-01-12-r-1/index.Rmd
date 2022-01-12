@@ -1,12 +1,13 @@
 ---
-title: R绘图1
+title: Openxlsx包
 author: jiashun zhang
 date: '2022-01-12'
 slug: r-1
 categories:
-  - R绘图
+  - R与EXCEL交互工具包
 tags:
   - R Markdown
   - plot
   - regression
 ---
+## Openxlsx包的主要函数列表
