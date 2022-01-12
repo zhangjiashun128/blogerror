@@ -70,7 +70,11 @@ library("openxlsx")
 
 ### 2.1 创建Excel文档
 
+使用createWorkbook()创建一个Excel工作簿，然后使用saveWorkbook()将工作簿保存到本地文件夹中。
+
 ```{r}
 wb <- createWorkbook()
 saveWorkbook(wb, file = 'test.xlsx')
 ```
+
+### 2.2 数据读取与输出
