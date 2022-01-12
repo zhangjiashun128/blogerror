@@ -1,0 +1,46 @@
+---
+title: Openxlsx包
+author: jiashun zhang
+date: '2022-01-12'
+slug: r-1
+categories:
+  - R与EXCEL交互工具包
+tags:
+  - R Markdown
+  - plot
+  - regression
+---
+
+## Openxlsx包的主要函数列表
+
+加载R包
+
+```{r}
+library("openxlsx")
+
+```
+
+| 函数名              | 功能                   |
+|---------------------|------------------------|
+| createWorkbook      | 创建一个工作簿         |
+| addWorksheet        | 为工作簿添加一个工作表 |
+| mergeCells          | 合并单元格             |
+| makeHyperlinkString | 创建超链接             |
+| writeData           | 将数据写入到工作表     |
+| insertImage         | 将图片插入到工作表     |
+| insertPlot          | 将当前绘图插入到工作表 |
+| getSheetNames       | 获取工作表名字         |
+| renameWorksheet     | 重命名工作表           |
+| conditionalFormat   | 为单元格添加条件格式   |
+| addStyle            | 为单元格设置格式       |
+| addFilter           | 为工作表添加筛选功能   |
+| replaceStyle        | 替换单元格格式         |
+| freezePane          | 冻结工作表窗口         |
+| worksheetOrder      | 对工作表进行排序       |
+| modifyBaseFont      | 设置默认字体           |
+| saveWorkbook        | 保存工作簿到文件       |
+| setRowHeights       | 设置工作表行高         |
+| showGridLines       | 隐藏网格线             |
+| setColWidths        | 设置工作表列宽         |
+
+: openxlsx包的主要函数列表
