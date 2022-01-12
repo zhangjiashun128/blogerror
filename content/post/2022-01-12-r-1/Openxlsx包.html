@@ -15,11 +15,15 @@ tags:
 
 
 <div id="openxlsx包的主要函数列表" class="section level2">
-<h2>Openxlsx包的主要函数列表</h2>
+<h2>openxlsx包的主要函数列表</h2>
 <p>加载R包</p>
 <pre class="r"><code>library(&quot;openxlsx&quot;)</code></pre>
-<table>
+<table style="width:99%;">
 <caption>openxlsx包的主要函数列表</caption>
+<colgroup>
+<col width="45%" />
+<col width="52%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th>函数名</th>
@@ -109,4 +113,13 @@ tags:
 </tr>
 </tbody>
 </table>
+</div>
+<div id="openxlsx包的使用介绍" class="section level2">
+<h2>openxlsx包的使用介绍</h2>
+<div id="excel文档" class="section level3">
+<h3>Excel文档</h3>
+<pre class="r"><code>wb &lt;- createWorkbook()
+saveWorkbook(wb, file = &#39;test.xlsx&#39;)</code></pre>
+<pre><code>## Warning: Workbook does not contain any worksheets. A worksheet will be added.</code></pre>
+</div>
 </div>
